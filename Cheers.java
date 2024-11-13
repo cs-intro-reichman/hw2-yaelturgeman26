@@ -10,7 +10,7 @@ public class Cheers {
             if (anLetters.indexOf(letter) != -1) {
                 article = "an";
             } else {
-                article = "a";
+                article = "a"+" ";
             }
             System.out.println("Give me " + article + " " + letter + ": " + letter + "!");
             
