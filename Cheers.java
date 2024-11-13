@@ -1,7 +1,7 @@
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-        String inputString = args[0];
+        String inputString = args[0].toUpperCase();
         int repeatCount = Integer.parseInt(args[1]);
         String anLetters = "AEFHILMNORSX";
         for (int i = 0; i < inputString.length(); i++) {
