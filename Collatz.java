@@ -26,7 +26,9 @@ public class Collatz {
 				count = 1;
 				current = i + 1;
 			}
+			System.out.println("Every one of the first" + " " + N +  " " + "hailstone sequences reached 1.");
 		}
+
 		if(mode.equals("c"))
 		{
 			System.out.println("Every one of the first" + " " + N +  " " + "hailstone sequences reached 1.");
