@@ -29,7 +29,7 @@ public class Collatz {
 		}
 		if(mode.equals("c"))
 		{
-			System.out.println("Every one of the first 7 hailstone sequences reached 1.");
+			System.out.println("Every one of the first" + " " + N +  " " + "hailstone sequences reached 1.");
 		}
 
 	}
